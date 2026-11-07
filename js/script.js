@@ -52,7 +52,7 @@ const DEGRAUS = [
   { n: "Aparelhos", img: "reformer", t: "Pilates nos aparelhos, com acompanhamento e progressões que respeitam o seu momento.", alt: "Aluna no reformer" },
   { n: "Calistenia", img: "parada-parede", t: "Usar o próprio corpo como resistência: aprender a sustentar, movimentar e dominar o próprio corpo.", alt: "Aluna em parada de mão na parede" },
   { n: "Invertidas", img: "invertida-cadillac", t: "Cada invertida tem orientação, cuidado e uma progressão pensada para você.", alt: "Invertida no cadillac" },
-  { n: "Tecido e arco", img: "arco", t: "As primeiras invertidas suspensas: movimentos que você talvez nunca imaginou fazer.", alt: "Aluna invertida no arco suspenso" },
+  { n: "Tecido e lira", img: "arco", t: "As primeiras invertidas suspensas: movimentos que você talvez nunca imaginou fazer.", alt: "Aluna invertida na lira suspensa" },
 ];
 const dgBox = $("[data-degraus]"), dgFotos = $("[data-d-fotos]"), dPto = $("[data-pto]");
 DEGRAUS.forEach((d, i) => {
